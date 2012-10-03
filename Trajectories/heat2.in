@@ -1,0 +1,15 @@
+ringhetdim : 10ps - 20ps MD
+ &cntrl
+  imin   = 0, irest = 1,
+  ntx    = 5,
+  ntb    = 1,
+  igb    = 0,
+  cut    = 10,
+  ntr    = 0,
+  ntc    = 2, ntf = 2,
+  tempi  = 100.0, temp0 = 200.0,
+  ntt    = 3, gamma_ln = 1.0,
+  nstlim = 5000, dt = 0.002,
+  ntpr   = 1000, ntwx = 1000, ntwr = 5000,
+  iwrap  = 1, ig = -1,
+ /

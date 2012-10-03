@@ -1,0 +1,23 @@
+source leaprc.ff99SB
+
+pro = loadpdb prot.pdb
+pro_0wat = loadpdb prot_0wat.pdb
+lig = loadpdb lig.pdb
+rec = loadpdb rec.pdb
+
+set default PBradii mbondi2
+
+saveamberparm pro prot_vac.parmtop prot_vac.inpcrd
+saveamberparm pro_0wat prot_0wat.parmtop prot_0wat.inpcrd
+saveamberparm lig lig.parmtop lig.inpcrd
+saveamberparm rec rec.parmtop rec.inpcrd
+
+savepdb pro prot_vac.pdb
+savepdb pro_0wat prot_0wat.pdb
+solvateBox pro TIP3PBOX 12.0
+addIons pro Cl- 0
+addIons pro Na+ 0
+saveamberparm pro prot.parmtop prot.inpcrd
+savepdb pro prot_wat.pdb
+quit
+

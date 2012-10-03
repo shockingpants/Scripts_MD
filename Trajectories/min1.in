@@ -1,0 +1,14 @@
+ringhetdimer : initial minimization, solute frozen
+ &cntrl
+  imin   = 1,
+  maxcyc = 1000,
+  ncyc   = 1000,
+  ntb    = 1,
+  ntr    = 1,
+  cut    = 10
+ /
+Hold the solute fixed
+500.0
+RES 1 _RES_
+END
+END

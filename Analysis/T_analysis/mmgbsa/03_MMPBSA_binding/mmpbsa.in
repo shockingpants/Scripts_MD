@@ -1,0 +1,11 @@
+Input file for running GB
+&general
+   startframe=1, endframe=_FRAME_, interval=1,
+   verbose=1,
+#  strip_mdcrd=0,  
+#   entropy=1,
+/
+&gb
+  igb=2, saltcon=0.100
+/
+

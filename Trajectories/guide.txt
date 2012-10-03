@@ -1,0 +1,8 @@
+1. Have a prot.pdb file
+2. Add Glycine to the ends
+3. Cap with ACE and NME
+4. Make sure we don't have o- at the end
+5. Change trajectory length
+6. Change number of residue in min.in
+7. Check leap.log and myleap.log after generating parmtop to check for fatal errors.
+8. Check for histidines and other residue with pka close to 7.

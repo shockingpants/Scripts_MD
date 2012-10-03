@@ -1,0 +1,11 @@
+source leaprc.ff99SB
+mut = loadpdb mut.pdb
+mut_lig = loadpdb mut_lig.pdb
+mut_rec = loadpdb mut_rec.pdb
+set default PBradii mbondi2
+saveamberparm mut_lig mut_lig.parmtop mut_lig.inpcrd
+saveamberparm mut_rec mut_rec.parmtop mut_rec.inpcrd
+saveamberparm mut mut.parmtop mut.inpcrd
+quit
+
+

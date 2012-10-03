@@ -1,0 +1,13 @@
+Input file for Alanine Scanning
+&general
+   startframe=5000, endframe=50000, interval=4,
+#   strip_mdcrd=0, 
+   verbose=1, 
+#   entropy=1,
+/
+&gb
+  igb=2, saltcon=0.100
+/
+&alanine_scanning
+/
+

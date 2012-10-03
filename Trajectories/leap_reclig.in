@@ -1,0 +1,9 @@
+source leaprc.ff99SB
+lig = loadpdb lig.pdb
+rec = loadpdb rec.pdb
+set default PBradii mbondi2
+saveamberparm lig lig.parmtop lig.inpcrd
+saveamberparm rec rec.parmtop rec.inpcrd
+
+quit
+

@@ -1,0 +1,19 @@
+########################
+##### Prep files for MD and MMGBSA
+########################
+# Copies all the files needed to run an MD and binding energy calculation
+prep 
+
+########################
+#### Alanine scanning
+########################
+# Copies all the files needed to run Alanine snan
+prep_ala
+
+
+########################
+#### Analysis
+########################
+# Copies all the files needed to run an analysis
+prep_ana
+

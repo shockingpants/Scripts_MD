@@ -1,0 +1,14 @@
+pmadvar1 : initial minimisation prior to MD, water frozen
+ &cntrl
+  imin   = 1,
+  maxcyc = 1000,
+  ncyc   = 1000,
+  ntb    = 1,
+  ntr    = 1,
+  cut    = 10
+ /
+Hold the water fixed
+500.0
+RES 103 99999
+END
+END
